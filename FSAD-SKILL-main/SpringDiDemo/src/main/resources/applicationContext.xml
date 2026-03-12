@@ -6,11 +6,11 @@
 
     <bean id="engine" class="com.klu.Engine"/>
 
-    <bean id="car" class="com.klu.Car">
+    <bean id="c" class="com.klu.Car">
         <constructor-arg ref="engine"/>
     </bean>
 
-    <bean id="bike" class="com.klu.Bike">
+    <bean id="b" class="com.klu.Bike">
         <property name="engine" ref="engine"/>
     </bean>
 
